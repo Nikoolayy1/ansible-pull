@@ -3,6 +3,8 @@
 - name: General Config
 
   hosts: routers
+  gather_facts: no
+  become: yes
 
   tasks:
 
